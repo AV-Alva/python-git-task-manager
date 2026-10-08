@@ -1,4 +1,5 @@
-print ("this is first module")
-print("Task Manager Module Initialized")
+from datetime import datetime
+from logger_config import logger
 
-print("Welcome to the Task Manager Module!")
+logger.info("Task Manager Module Initialized")
+logger.info("Welcome to the Task Manager Module!")
